@@ -1,0 +1,14 @@
+USE scratch;
+-- SELECT * FROM customer;
+-- -- INSERT INTO customer (name, address, city, state, zip) VALUES ('Edgar Isai', '123 cobblestone way', 'Bedrock', 'CA', '45079');
+-- UPDATE customer SET address = '123', zip = '123456' WHERE name LIKE 'Bill%';
+-- SELECT * FROM customer WHERE id = 1;
+CREATE TABLE test(a INT, B VARCHAR(16), C INT);
+INSERT INTO test VALUES (11, 'LOL', 3);
+DELETE FROM test WHERE a = 1;
+SELECT * FROM test;
+DELETE FROM test;
+DROP TABLE test;
+DELETE FROM customer WHERE name LIKE 'Bill%' OR name LIKE 'Mary%';
+DELETE FROM customer WHERE id = 4;
+SELECT * FROM customer;
