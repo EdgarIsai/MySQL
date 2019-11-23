@@ -11,7 +11,7 @@ SELECT * FROM track;
 -- CREATE TABLE test2(t2_id INT);
 -- INSERT INTO test VALUES (2);
 -- INSERT INTO test VALUES (4);
--- INSERT INTO test2 VALUES (2);
+-- INSERT INTO test2 VALUES (2); 
 
 SELECT t.t_id AS t1, t2.t2_id as t2
 	FROM test AS t
